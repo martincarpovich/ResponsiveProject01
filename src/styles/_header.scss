@@ -1,0 +1,107 @@
+@use "_variables" as vt;
+
+figure.sra img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+section.header {
+  margin: 0 15px;
+  margin-bottom: 100px;
+
+  h1 {
+    font-family: vt.$primary-font;
+    font-size: 70px;
+    max-width: 301px;
+    line-height: 0.9;
+    margin-bottom: 40px;
+  }
+
+  p {
+    color: vt.$grey;
+    font-family: vt.$secondary-font;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+
+  div.btn a.texto {
+    background-color: vt.$black;
+    color: vt.$white;
+    text-decoration: none;
+    padding: 20px 25px;
+    font-family: vt.$primary-font;
+    letter-spacing: 3px;
+    border: 0;
+  }
+  div.btn a.flecha {
+    background-color: vt.$orange;
+    color: vt.$white;
+    text-decoration: none;
+    padding: 16.8px 15px;
+    border: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.btn {
+    display: flex;
+    align-items: center;
+    &:hover {
+      a.flecha {
+        background-color: vt.$black;
+      }
+      a.texto {
+        background-color: vt.$orange;
+      }
+    }
+  }
+}
+
+/* aca empieza la pagina 2 */
+
+header.maps {
+  height: 608px;
+  max-width: 100%;
+  background-image: url(../../img/Maps.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  div.btn a.texto {
+    background-color: vt.$black;
+    color: vt.$white;
+    text-decoration: none;
+    padding: 30px 35px;
+    font-family: vt.$primary-font;
+    letter-spacing: 4px;
+    border: 0;
+    font-size: 25px;
+  }
+  div.btn a.flecha {
+    background-color: vt.$orange;
+    color: vt.$white;
+    text-decoration: none;
+    padding: 32px 25px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.btn {
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      a.flecha {
+        background-color: vt.$black;
+      }
+      a.texto {
+        background-color: vt.$orange;
+      }
+    }
+  }
+}

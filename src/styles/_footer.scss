@@ -1,0 +1,37 @@
+@use "_variables" as vt;
+
+footer {
+  background-color: vt.$black;
+  padding: 50px 30px;
+  height: 343px;
+
+  figure.mag {
+    margin-bottom: 30px;
+  }
+
+  p {
+    color: vt.$white;
+    font-family: vt.$secondary-font;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 100;
+    max-width: 372px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  div.icons {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+/* aca empieza la pagina 2 */
+
+footer.segundo {
+  background-color: vt.$orange;
+  p {
+    color: vt.$black;
+    font-weight: 250;
+  }
+}

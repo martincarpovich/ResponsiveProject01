@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+    height: 227px;
+    padding-bottom: 0;
+
+    p {
+      font-weight: 100;
+      max-width: 312px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+/* aca empieza la pagina 2 */
+
+@media (min-width: 768px) {
+  footer.segundo {
+    padding-right: 50px;
+    padding-left: 50px;
+
+    figure.mag img {
+      width: 150px;
+    }
+
+    div.icons a img {
+      width: 30px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+}

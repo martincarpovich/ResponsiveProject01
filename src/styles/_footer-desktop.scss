@@ -1,0 +1,11 @@
+@media (min-width: 1200px) {
+  footer {
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 75px;
+
+    p {
+      max-width: 422px;
+    }
+  }
+}

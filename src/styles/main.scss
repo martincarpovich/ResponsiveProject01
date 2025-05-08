@@ -1,0 +1,16 @@
+@use "_variables";
+@use "_header";
+@use "_header-tablet";
+@use "_header-desktop";
+@use "_layout";
+@use "_layout-tablet";
+@use "_layout-desktop";
+@use "_footer";
+@use "_footer-tablet";
+@use "_footer-desktop";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
