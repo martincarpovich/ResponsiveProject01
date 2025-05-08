@@ -4,7 +4,7 @@ Este es un proyecto de ejemplo que muestra cómo crear una cabecera (header) res
 
 ## Vista Previa
 
-![Captura de pantalla del proyecto](./img/ModernArtGallery.png)
+![Captura de pantalla del proyecto](./ModernArtGallery.png)
 
 ## Tecnologías Usadas
 
